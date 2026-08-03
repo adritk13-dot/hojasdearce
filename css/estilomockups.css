@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+.titulo-ilustraciones {
+    font-size: 66px;                  
+    font-family: sans-serif;          
+    color:beige;                
+    margin: 0;
+    padding-left: 10%;  
+	text-justify: auto;
+}
+
+.proyecto-luka-seccion {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;   
+    max-width: 1100px !important;
+    margin: 60px auto !important;       
+    padding: 0 20px !important;
+    box-sizing: border-box !important;
+    clear: both !important;            
+    width: 100% !important;
+}
+
+.caja-morada-cuento {
+    background-color: #7b57a0 !important; 
+    border-radius: 30px !important;       
+    padding: 30px 45px !important;        
+    max-width: 800px !important;          
+    width: 100% !important;
+    box-shadow: 0 8px 20px rgba(123, 87, 160, 0.2) !important;
+    margin-bottom: 40px !important;       
+    box-sizing: border-box !important;
+}
+
+
+.texto-blanco-cuento {
+    color: #ffffff !important;
+    font-family: sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    text-align: center !important;        
+}
+
+.imagen-cuento-centrada {
+    width: 100% !important;
+    max-width: 900px !important;          
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.imagen-cuento-centrada img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 15px !important;       
+}
+
+@media (max-width: 768px) {
+    .caja-morada-cuento {
+        padding: 20px 25px !important;
+        border-radius: 20px !important;
+        margin-bottom: 25px !important;
+    }
+    .texto-blanco-cuento {
+        font-size: 14px !important;
+    }
+	
+	/* ==========================================================================
+   ESTILOS PARA EL BULLET DE HOJA DE ARCE
+   ========================================================================== */
+.contenedor-bullet-decorativo {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important; /* Centra el bullet horizontalmente */
+    align-items: center !important;
+    margin-top: 40px !important;        /* Espacio de separación con la última imagen de arriba */
+    margin-bottom: 20px !important;     /* Espacio inferior antes de la siguiente sección o footer */
+    clear: both !important;
+}
+
+.bullet-hoja {
+    width: 80px !important;             /* Tamaño ideal para que luzca como un icono decorativo sutil */
+    height: auto !important;            /* Mantiene la proporción redonda original */
+    object-fit: contain !important;
+    opacity: 0.9 !important;            /* Le da una ligera suavidad visual */
+    transition: transform 0.3s ease !important;
+}
+
+/* Efecto opcional: Al pasar el cursor sobre la hoja, hace un pequeño brinco o escala */
+.bullet-hoja:hover {
+    transform: scale(1.1) !important;
+    cursor: pointer;
+}
+
+}
+

@@ -1,0 +1,153 @@
+
+.malla-redes-limpia {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: flex-end !important;
+    gap: 40px !important;
+    max-width: 1100px !important;
+    margin: 60px auto !important;
+    width: 100% !important;
+    padding: 0 20px !important;
+    box-sizing: border-box !important;
+}
+
+.bloque-red-individual {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    flex: 1 !important;
+    max-width: 320px !important;
+}
+
+.contenedor-icono-png {
+    width: 65px !important;
+    height: 65px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 20px !important;
+}
+
+.contenedor-icono-png img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    object-fit: contain !important;
+}
+
+.capsula-naranja-texto {
+    background-color: #ef7744 !important; 
+    border-radius: 20px !important;
+    padding: 15px 25px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2) !important;
+}
+
+.capsula-naranja-texto p {
+    color: #ffffff !important;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 14px !important;
+    font-weight: bold !important;
+    margin: 0 !important;
+    white-space: nowrap !important;
+    text-transform: lowercase !important;
+}
+
+
+.bloque-formulario {
+    max-width: 650px !important;
+    margin: 50px auto 80px auto !important;
+    background-color: #7b57a0 !important; 
+    padding: 40px !important;
+    border-radius: 35px !important;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3) !important;
+    box-sizing: border-box !important;
+}
+
+.bloque-formulario h3 {
+    color: #ffffff !important;
+    text-align: center !important;
+    margin-top: 0 !important;
+    margin-bottom: 30px !important;
+    font-size: 24px !important;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.grupo-campo {
+    margin-bottom: 25px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.grupo-campo label {
+    color: #ffffff !important;
+    font-size: 15px !important;
+    margin-bottom: 10px !important;
+    font-weight: bold !important;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.grupo-campo input, 
+.grupo-campo textarea {
+    padding: 14px 18px !important;
+    border: none !important;
+    border-radius: 12px !important;
+    font-size: 16px !important;
+    background-color: #ffffff !important;
+    color: #333333 !important;
+    outline: none !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.grupo-campo input:focus, 
+.grupo-campo textarea:focus {
+    outline: 3px solid #ef7744 !important; 
+}
+
+.boton-enviar {
+    background-color: #ef7744 !important;
+    color: #ffffff !important;
+    border: none !important;
+    padding: 16px !important;
+    width: 100% !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    border-radius: 15px !important;
+    cursor: pointer !important;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    transition: background 0.3s ease;
+}
+
+.boton-enviar:hover {
+    background-color: #f08658 !important;
+}
+.titulo-ilustraciones {
+    font-size: 66px;                  
+    font-family: sans-serif;          
+    color:#FFFCF0;                
+    margin: 0;
+    padding-left: 10%;  
+	text-justify: auto;
+}
+.titulo-ilustraciones {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+
+
+@media (max-width: 768px) {
+    .malla-redes-limpia {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 40px !important;
+    }
+    .bloque-formulario {
+        padding: 25px !important;
+    }
+}
+@charset "utf-8";
+/* CSS Document */

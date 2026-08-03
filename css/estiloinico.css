@@ -1,0 +1,197 @@
+@charset "utf-8";
+.sniglet-regular {
+  font-family: "Sniglet", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sniglet-extrabold {
+  font-family: "Sniglet", system-ui;
+  font-weight: 800;
+  font-style: normal;
+}
+.pie {
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/19 sin título_20260731222046.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-pie {
+    text-align: center;
+    color: #f5e6d3; /* tono cremita aesthetic */
+    padding: 20px;
+    padding-top: 99px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+.contenedor-pie h2 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+.menu-pie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.menu-pie p {
+  margin: 0;
+  cursor: pointer;
+}
+
+.ig {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ==========================================================================
+   ESTILOS DE LA SECCIÓN DE PRESENTACIÓN (SOBRE MÍ)
+   ========================================================================== */
+.seccion-presentacion-autora {
+    display: flex !important;
+    flex-direction: row !important;       /* Coloca texto a la izquierda e imagen a la derecha */
+    align-items: center !important;        /* Los nivela verticalmente por el centro */
+    justify-content: space-between !important; /* Distribuye el espacio entre ambos bloques */
+    gap: 50px !important;                 /* Separación cómoda entre el texto y la ilustración */
+    max-width: 1100px !important;          /* Ancho máximo alineado con tus otras secciones */
+    margin: 60px auto !important;          /* Separa esta sección de los bloques de arriba y abajo */
+    padding: 0 20px !important;
+    box-sizing: border-box !important;
+    clear: both !important;               /* Protege el flujo contra flotados anteriores */
+    width: 100% !important;
+}
+
+/* Control del bloque de texto (Izquierda) */
+.bloque-texto-presentacion {
+    flex: 1.2 !important;                  /* Le da un poco más de espacio al texto que a la imagen */
+}
+
+.saludo-presentacion {
+    color: #ef7744 !important;            /* Tu color naranja característico para el título */
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 36px !important;
+    margin: 0 0 20px 0 !important;
+    font-weight: 800 !important;
+}
+
+.descripcion-presentacion {
+    color: #ffffff !important;            /* Texto blanco para excelente contraste sobre tu fondo oscuro */
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.7 !important;          /* Espaciado de renglones que facilita la lectura */
+    margin: 0 !important;
+    text-align: justify;
+}
+
+/* Control del bloque de la ilustración (Derecha) */
+.bloque-imagen-presentacion {
+    flex: 1 !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.bloque-imagen-presentacion img {
+    max-width: 100% !important;           /* Evita que la imagen se desborde */
+    height: auto !important;               /* Mantiene las proporciones originales */
+    border-radius: 20px !important;       /* Mantiene un estilo limpio en sintonía con tu diseño */
+    margin-right: 70px;
+   /* Sombra sutil para dar volumen */
+}
+
+    
+    .saludo-presentacion {
+    font-size: 28px !important;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #7D0ECD;
+    }
+    
+    .bloque-imagen-presentacion img {
+        max-width: 100% !important;                 /* Encoge un poco la imagen en móviles para que no sature */
+    }
+}
+
+
+
+.icono {
+  width: 25px;
+  height: 25px;
+}
+
+.credito {
+  font-size: 14px;
+  opacity: 0.8;
+}
+body img {
+	padding-left: 37px;
+	float: left;
+    margin-right: 15px;      /* Espacio entre el logo y el primer botón */
+ ; 
+}
+.portafolio {
+    width: 100%;
+    height: 800px;
+}
+.clase-de-tu-banner {
+    width: 100% !important;
+    max-width: 1200px !important; /* Limita el ancho máximo en pantallas gigantes para que no se pixele */
+    height: auto !important;       /* Mantiene la proporción correcta al encogerse o estirarse */
+    display: block !important;
+    margin: 0 auto !important;     /* Centra el banner en la pantalla */
+	
+}
+
+
+
+.contenedor-boton-contacto {
+    display: flex !important;
+    justify-content: center !important; /* Centrado absoluto en el eje X */
+    align-items: center !important;
+    width: 100% !important;
+    margin: 40px auto !important;       /* Espacio de separación arriba y abajo */
+    clear: both !important;
+}
+
+/* El botón con tu color base #beacd4 */
+.boton-contacto-morado {
+    background-color: #beacd4 !important; /* Tu color morado claro */
+    color: #4b3549 !important;            /* Texto en tu tono oscuro de fondo para excelente contraste */
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"/* Tu tipografía principal */
+    font-size: 16px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;     /* Quita la línea de enlace tradicional */
+    text-transform: lowercase !important;  /* Mantiene el texto en minúsculas como tu estilo */
+    
+    padding: 15px 35px !important;        /* Espacio interno para darle forma de cápsula */
+    border-radius: 30px !important;       /* Bordes muy redondeados */
+    display: inline-block !important;
+    text-align: center !important;
+    
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15) !important; /* Sombra suave para dar volumen */
+    transition: all 0.3s ease !important; /* Suaviza el cambio de color al pasar el cursor o presionar */
+}
+
+/* 1. EFECTO HOVER: Al pasar el cursor encima, se oscurece un poco antes de dar clic */
+.boton-contacto-morado:hover {
+    background-color: #a491ba !important; 
+    color: #ffffff !important;            
+    cursor: pointer !important;
+    transform: translateY(-2px) !important; /* Sutil elevación visual */
+}
+
+.boton-contacto-morado:active {
+    background-color: #7b57a0 !important; /* El morado oscuro de tu formulario y bloques */
+    transform: translateY(1px) !important;  /* Efecto físico de hundimiento al ser presionado */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
